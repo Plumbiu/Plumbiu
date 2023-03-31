@@ -15,4 +15,4 @@ A Front-end coder🥵🥵🥵
 
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0429.gif" width="500px">
 
-<a href="https://wakatime.com"><img src="https://wakatime.com/share/@43e688e8-255f-4966-9dfd-6b499237eefd/9948f059-a942-4611-bbfa-2e9f8a054be8.png" /></a>
+<a href="https://wakatime.com"><img src="https://wakatime.com/share/@43e688e8-255f-4966-9dfd-6b499237eefd/7d681c40-7fab-42b9-9472-ac026aa646af.png" /></a>
