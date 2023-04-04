@@ -1,5 +1,5 @@
 # Hi👋, I'm Plumbiu🥰
-A Front-end coder🥵🥵🥵
+A front-end programmer 🥵🥵🥵
 ## where you can find me?🤔
 - [![](https://img.shields.io/badge/Blog-Plumbiuの小屋-black?logo=blog&color=blueviolet)](https://blog.plumbiu.club/)
 - [![](https://img.shields.io/badge/Github-black?logo=github&logoColor=white&color=green)](https://github.com/Plumbiu)
