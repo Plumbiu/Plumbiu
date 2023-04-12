@@ -10,7 +10,7 @@ A front-end programmer 🥵🥵🥵
 
 ## programming language 💫
 
-<a href="https://wakatime.com"><img width="600px" src="https://wakatime.com/share/@43e688e8-255f-4966-9dfd-6b499237eefd/1393324b-0797-4653-9402-2ccf5ecd81cf.png" /></a>
+<a href="https://wakatime.com"><img width="600px" src="https://wakatime.com/share/@43e688e8-255f-4966-9dfd-6b499237eefd/9af9aad8-786b-493b-bdf9-ecd271e26abc.png" /></a>
 
 # Thank you for visiting my profile❤️
 
