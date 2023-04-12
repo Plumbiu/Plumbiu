@@ -15,4 +15,4 @@ A front-end programmer 🥵🥵🥵
 
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0429.gif" width="500px">
 
-<a href="https://wakatime.com"><img src="https://wakatime.com/share/@43e688e8-255f-4966-9dfd-6b499237eefd/7d681c40-7fab-42b9-9472-ac026aa646af.png" /></a>
+<a href="https://wakatime.com"><img width="500px" src="https://wakatime.com/share/@43e688e8-255f-4966-9dfd-6b499237eefd/7d681c40-7fab-42b9-9472-ac026aa646af.png" /></a>
