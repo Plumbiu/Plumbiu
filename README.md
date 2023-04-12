@@ -9,7 +9,7 @@ A front-end programmer 🥵🥵🥵
 - Any website with a user name of Plumbiu！
 
 <div style="display: flex">
-  <img src="https://github-readme-stats.vercel.app/api?username=Plumbiu&theme=dark#gh-dark-mode-only" />
+  <img height="100%" src="https://github-readme-stats.vercel.app/api?username=Plumbiu&theme=dark#gh-dark-mode-only" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Plumbiu&theme=transparent" />
 </div>
 <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=Plumbiu&theme=radical" />
