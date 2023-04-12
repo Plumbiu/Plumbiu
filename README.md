@@ -14,6 +14,6 @@ A front-end programmer 🥵🥵🥵
 
 # Thank you for visiting my profile❤️
 
-<img width="600px" src="https://github-readme-stats.vercel.app/api?username=Plumbiu" />
+<img width="600px" src="https://github-readme-stats.vercel.app/api?username=Plumbiu&theme=dark#gh-dark-mode-only" />
 
-<img width="600px" src="https://github-readme-streak-stats.herokuapp.com/?user=Plumbiu" />
+<img width="600px" src="https://github-readme-streak-stats.herokuapp.com/?user=Plumbiu&theme=radical" />
