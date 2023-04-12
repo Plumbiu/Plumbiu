@@ -8,12 +8,11 @@ A front-end programmer 🥵🥵🥵
 - [![](https://img.shields.io/badge/Github-black?logo=github&logoColor=white&color=green)](https://github.com/Plumbiu)
 - Any website with a user name of Plumbiu！
 
-<img width="500px" src="https://github-readme-stats.vercel.app/api?username=Plumbiu&theme=dark#gh-dark-mode-only" />
-<img width="500px" src="https://github-readme-streak-stats.herokuapp.com/?user=Plumbiu&theme=radical" />
-
-## repo language 💫
-
-<img width="500px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Plumbiu&theme=transparent" />
+<div style="display: flex">
+  <img src="https://github-readme-stats.vercel.app/api?username=Plumbiu&theme=dark#gh-dark-mode-only" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Plumbiu&theme=transparent" />
+</div>
+<img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=Plumbiu&theme=radical" />
 
 ## programming language ❤️
 
