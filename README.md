@@ -13,7 +13,7 @@ A front-end programmer 🥵🥵🥵
 
 ## repo language 💫
 
-<img width="500px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Plumbiu" />
+<img width="500px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Plumbiu&theme=transparent" />
 
 ## programming language ❤️
 
