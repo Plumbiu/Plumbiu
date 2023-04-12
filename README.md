@@ -8,12 +8,12 @@ A front-end programmer 🥵🥵🥵
 - [![](https://img.shields.io/badge/Github-black?logo=github&logoColor=white&color=green)](https://github.com/Plumbiu)
 - Any website with a user name of Plumbiu！
 
-# programming language 💫
+## programming language 💫
 
-<a href="https://wakatime.com"><img width="700px" src="https://wakatime.com/share/@43e688e8-255f-4966-9dfd-6b499237eefd/7d681c40-7fab-42b9-9472-ac026aa646af.png" /></a>
+<a href="https://wakatime.com"><img width="600px" src="https://wakatime.com/share/@43e688e8-255f-4966-9dfd-6b499237eefd/7d681c40-7fab-42b9-9472-ac026aa646af.png" /></a>
 
-## Thank you for visiting my profile❤️
+# Thank you for visiting my profile❤️
 
-<img width="700px" src="https://github-readme-stats.vercel.app/api?username=Plumbiu" />
+<img width="600px" src="https://github-readme-stats.vercel.app/api?username=Plumbiu" />
 
-<img width="700px" src="https://github-readme-streak-stats.herokuapp.com/?user=Plumbiu" />
+<img width="600px" src="https://github-readme-streak-stats.herokuapp.com/?user=Plumbiu" />
