@@ -17,6 +17,6 @@ A front-end programmer 🥵🥵🥵
 ## programming language ❤️
 
 <div style="display:flex;">
-  <img width="500px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Plumbiu&theme=transparent" />
-  <img style="float:right;flex: 1;" width="600px" src="https://wakatime.com/share/@43e688e8-255f-4966-9dfd-6b499237eefd/dc766ce9-5056-49df-87d8-d58d24afc8e1.png" />
+  <img width="350px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Plumbiu&theme=transparent" />
+  <img width="350px" src="https://wakatime.com/share/@43e688e8-255f-4966-9dfd-6b499237eefd/dc766ce9-5056-49df-87d8-d58d24afc8e1.png" />
 </div>
