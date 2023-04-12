@@ -10,7 +10,7 @@ A front-end programmer 🥵🥵🥵
 
 <div style="display:flex;">
   <img width="400px" src="https://github-readme-stats.vercel.app/api?username=Plumbiu&theme=dark#gh-dark-mode-only" />
-  <img width="400px" height="173.33px" src="https://github-readme-streak-stats.herokuapp.com/?user=Plumbiu&theme=radical" />
+  <img height="173.33px" style="object-fit:cover" src="https://github-readme-streak-stats.herokuapp.com/?user=Plumbiu&theme=radical" />
 </div>
 
 
