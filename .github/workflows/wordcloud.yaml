@@ -1,10 +1,6 @@
 name: WordCloud
 
-on: [push, workflow_call]
-  # update wordcloud if has pull_request
-  # pull_request:
-    # branches: ["main"]
-  
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -22,7 +18,7 @@ jobs:
         npm install
     - name: Update wordcloud
       run: |
-        node src/index.js
+        node src/canvas/index.js
     - name: Configure Git
       env:
         GIT_USERNAME: ${{ secrets.NAME }}

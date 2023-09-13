@@ -15,6 +15,4 @@ A front-end programmer 🥵🥵🥵
 
 # Tech Stack
 
-<p align="center">
 <img src="./word-cloud.png" style="width: 100%" />
-</p>
