@@ -2,7 +2,6 @@ import { createCanvas } from 'canvas'
 import sharp from 'sharp'
 import D3Node from 'd3-node'
 import cloud from 'd3-cloud'
-import * as core from '@actions/core'
 import randomColor from './randomColor.js'
 
 const options = { selector: '#chart', container: '<div id="chart"></div>' }
@@ -12,7 +11,6 @@ export function svgHTML(words) {
     text: d,
     size: 10 + Math.random() * 90,
   }))
-  core.info(words)
   // TODO: diy height and width
   const layout = cloud()
     .canvas(() =>  createCanvas(1, 1))
@@ -30,7 +28,6 @@ export function svgHTML(words) {
     'xmlns="http://www.w3.org/2000/svg"',
     'xmlns="http://www.w3.org/2000/svg" width="600" height="300"'
   )
-  console.log(svg)
   sharp(Buffer.from(svg)).resize(600, 300).toFile('word-cloud.png', (err, info) => {
     if (err) {
       console.log('err', err)
