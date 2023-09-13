@@ -33,16 +33,13 @@ export function run() {
     github profile can not show svg directly, we can't just put <svg> in README.md
     and svg's size is not correct, we need to set `width` and `height` by ourself
   */
-  const svg =
-    '<p align="center">\n' +
-    d3n
-      .svgString()
-      .replace(
-        'xmlns="http://www.w3.org/2000/svg"',
-        `xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}"`
-      ) +
-    '\n</p>'
-  // generate image file
+  const svg = d3n
+    .svgString()
+    .replace(
+      'xmlns="http://www.w3.org/2000/svg"',
+      `xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}"`
+    )
+    // generate image file
   sharp(Buffer.from(svg))
     .resize(2.5 * width, 2.5 * height)
     .toFile('word-cloud.png', (err, info) => {
