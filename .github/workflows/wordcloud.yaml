@@ -1,0 +1,36 @@
+name: WordCloud
+
+on: [push, workflow_call]
+  # update wordcloud if has pull_request
+  # pull_request:
+    # branches: ["main"]
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+    - name: Setup node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+    - name: Install packages
+      run: |
+        npm install
+    - name: Update wordcloud
+      run: |
+        node src/index.js
+    - name: Configure Git
+      env:
+        GIT_USERNAME: ${{ secrets.NAME }}
+        GIT_EMAIL: ${{ secrets.EMAIL }}
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add .
+        git commit -m "docs: update word-cloud"
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v5

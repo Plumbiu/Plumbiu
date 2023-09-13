@@ -1,6 +1,0 @@
-name: WordCloud
-
-on: [push]
-jobs:
-  call-workflow-passing-data:
-    uses: Plumbiu/readme-word-cloud/.github/workflows/wordcloud.yaml@main
