@@ -28,7 +28,7 @@ export function svgHTML(words) {
     'xmlns="http://www.w3.org/2000/svg"',
     'xmlns="http://www.w3.org/2000/svg" width="600" height="300"'
   )
-  sharp(Buffer.from(svg)).resize(600, 300).toFile('word-cloud.png', (err, info) => {
+  sharp(Buffer.from(svg)).resize(1500, 750).toFile('word-cloud.png', (err, info) => {
     if (err) {
       console.log('err', err)
     } else {
