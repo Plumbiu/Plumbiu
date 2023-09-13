@@ -2,6 +2,7 @@ name: WordCloud
 
 on: [push]
 jobs:
-  uses: Plumbiu/readme-word-cloud/.github/workflows/wordcloud.yaml@main
-  with:
-    words: ['Vue', 'React', 'Pinia', 'Zustand', 'Nextjs', 'Nuxt', 'JS', 'TS', 'Nodejs']
+  -name: update word cloud
+    uses: Plumbiu/readme-word-cloud/.github/workflows/wordcloud.yaml@main
+    with:
+      words: ['Vue', 'React', 'Pinia', 'Zustand', 'Nextjs', 'Nuxt', 'JS', 'TS', 'Nodejs']
