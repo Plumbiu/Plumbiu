@@ -5,4 +5,4 @@ jobs:
   call-workflow-passing-data:
     uses: Plumbiu/readme-word-cloud/.github/workflows/wordcloud.yaml@main
     with:
-      words: ['Vue', 'React', 'Pinia', 'Zustand', 'Nextjs', 'Nuxt', 'JS', 'TS', 'Nodejs']
+      words: ['Vue', 'React', 'Pinia', 'Zustand', 'Nextjs', 'Nuxt', 'JS', 'TS', 'Nodejs', 'Rust']
