@@ -24,7 +24,7 @@ export function run() {
     .size([width, height])
     .words(words)
     .padding(5)
-    .rotate(() => Math.floor(Math.random() * 90))
+    .rotate(() => Math.floor(Math.random() * 60))
     .fontSize(d => d.size)
     .on('end', () => draw(d3n, layout, words))
 
@@ -39,7 +39,7 @@ export function run() {
       'xmlns="http://www.w3.org/2000/svg"',
       `xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}"`
     )
-    // generate image file
+  // generate image file
   sharp(Buffer.from(svg))
     .resize(2.5 * width, 2.5 * height)
     .toFile('word-cloud.png', (err, info) => {
