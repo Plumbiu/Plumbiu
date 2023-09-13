@@ -13,6 +13,8 @@ A front-end programmer 🥵🥵🥵
   <img height="150px" style="object-fit:cover" src="https://github-readme-streak-stats.herokuapp.com/?user=Plumbiu&theme=radical" />
 </div>
 
+# Tech Stack
+
 <p align="center">
-<img src="./word-cloud.png" />
+<img src="./word-cloud.png" style="width: 100%" />
 </p>
