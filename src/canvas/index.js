@@ -13,10 +13,16 @@ const d3n = new D3Node(options)
 // generate word-cloud.png
 export function run() {
   // foramt words
-  const words = wordcloud.map(d => ({
-    text: d,
-    size: 10 + Math.random() * 90
-  }))
+  const words = wordcloud.map(d => {
+    const [
+      text,
+      size = 10 + Math.random() * 90
+    ] = d.split(' ')
+    return {
+      text,
+      size
+    }
+  })
   // d3-cloud node example
   const layout = cloud()
     // use node-canvas create canvas object
