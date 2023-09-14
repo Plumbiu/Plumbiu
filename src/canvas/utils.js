@@ -1,3 +1,4 @@
+// random color
 function randomColor() {
   const random = [
     Math.floor(Math.random() * 255),
@@ -7,6 +8,12 @@ function randomColor() {
   return `rgb(${random.join(',')})`
 }
 
+/**
+ * draw the origin svg to the word-cloud.png effect
+ * @param {*} d3n d3-node instance
+ * @param {*} layout svg layout
+ * @param {Array<{ text: number; size: number }>} words word cloud words
+ */
 export function draw(d3n, layout, words) {
   d3n
     .createSVG()

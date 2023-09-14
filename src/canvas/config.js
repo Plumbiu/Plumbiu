@@ -1,3 +1,4 @@
+// word cloud
 export const wordcloud = [
   'React',
   'Vue',
@@ -17,5 +18,6 @@ export const wordcloud = [
   'Vite'
 ]
 
+// word-cloud.png size
 export const width = 600
 export const height = width / 2
