@@ -1,32 +1,40 @@
 name: WordCloud
 
-on: [push]
+on:
+  push:
+    branches:
+      - 'main'
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron: '30 5,17 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-      with:
-        fetch-depth: 0
-    - name: Setup node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: 18
-    - name: Install packages
-      run: |
-        npm install
-    - name: Update wordcloud
-      run: |
-        node src/canvas/index.js
-    - name: Configure Git
-      env:
-        GIT_USERNAME: ${{ secrets.NAME }}
-        GIT_EMAIL: ${{ secrets.EMAIL }}
-      run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add .
-        git commit -m "docs: update word-cloud"
-    - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v5
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Setup node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Install packages
+        run: |
+          npm install
+      - name: Update wordcloud
+        run: |
+          node src/canvas/index.js
+      - name: Configure Git
+        env:
+          GIT_USERNAME: ${{ secrets.NAME }}
+          GIT_EMAIL: ${{ secrets.EMAIL }}
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -m "docs: update word-cloud"
+      - name: Create Pull Request
+        uses: ad-m/github-push-action@master
+        with:
+          force: true
