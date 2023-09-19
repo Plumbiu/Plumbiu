@@ -13,6 +13,6 @@ A front-end programmer 🥵🥵🥵
 </div>
 
 <div style="display:flex;justify-content:space-between; margin-top: 35px;align-items:center">
-  <img height="340px" src="./github-metrics.svg" />
+  <img height="300px" src="./github-metrics.svg" />
   <img height="240px" src="./word-cloud.png" />
 </div>
