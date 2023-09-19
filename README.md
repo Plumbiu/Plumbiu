@@ -12,7 +12,7 @@ A front-end programmer 🥵🥵🥵
   <img height="150px" style="object-fit:cover" src="https://github-readme-streak-stats.herokuapp.com/?user=Plumbiu&theme=radical" />
 </div>
 
-<div style="display:flex;justify-content:space-between; margin-top: 35px;">
+<div style="display:flex;justify-content:space-between; margin-top: 35px;align-items:center">
   <img height="340px" src="./github-metrics.svg" />
-  <img height="200px" src="./word-cloud.png" />
+  <img height="240px" src="./word-cloud.png" />
 </div>
